@@ -1,0 +1,86 @@
+* {
+    font-family: 'Courier New';
+    font-size: large;
+}
+body {
+    width: 100%;
+    background-image: url("Shadows.jpeg");
+    background-size: cover;
+    opacity: 0.6;
+}
+.container {
+    font-weight: 700;
+    text-align: center;
+}
+.inner {
+    background-color: #61677A;
+    border-radius: 10px;
+    width: 720px;
+    height: 1350px;
+    font-family: 'Lucida Sans';
+}
+button{
+    background: #272829;
+    padding: 13px 10px;
+    color: beige;
+    font-weight: 700;
+    font-family: Verdana;
+    border: 2px solid lightslategrey;
+    border-radius: 10px;
+    display: block;
+    font-size: large;
+    width: 200px;
+    margin: 5px auto;
+}
+#title {
+    padding: 0;
+    margin: 30px 0 0;
+    color: #D8D9DA;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+#description {
+    color: #D8D9DA;
+    margin: 0 0 30px;
+    padding-top: 0;
+}
+.form-group{
+    margin-bottom: 20px;
+    padding: 0;
+}
+#survey-form #name-label{
+    display: block;
+    margin: 0 0 8px;
+    padding-top: 10px;
+}
+#survey-form #email-label{
+    display: block;
+    margin: 0 0 8px;
+}
+#survey-form #number-label{
+    display: block;
+    margin: 0 0 8px;
+}
+div label {
+    font-weight: 600;
+    text-align: left;
+    padding: 4px;
+}
+div {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.input {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFF6E0;
+}
+textarea {
+    background-color: #FFF6E0;
+    margin-top: 2px;
+}
+.bg-color {
+    background-color: #FFF6E0;
+}
